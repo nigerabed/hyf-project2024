@@ -1,3 +1,5 @@
+/* common styles for elements */
+
 *{
     margin: 0;
     padding: 0;
@@ -25,8 +27,12 @@ h1{
     text-align: center;
 }
 
+address{
+    display: inline;
+}
 
-/* Header Styles */
+
+/* Header Styles starts*/
 
 header{
     height: 3em;
@@ -48,8 +54,15 @@ header nav a{
     font-weight:400;
   margin-left: 1em;
 }
+.burger-menu {
+    display: none;
+  }
+  .lang-img{
+display: block;
+  }
 
-/* About us Hero Section Styles */
+
+/* About us Hero Section Styles starts */
 
 #hero-section{
     background-color: #E8DEF8;
@@ -78,7 +91,7 @@ align-items: center;
     font-size: 1.1em;
 }
 
-/* Event info styles */
+/* Event info styles starts*/
 
 #event-info-section{
    
@@ -125,7 +138,7 @@ align-items: center;
 }
 
 
-/* All event styles */
+/* All event styles starts */
 
 #all-events-section{
     padding: 1em;
@@ -133,7 +146,6 @@ align-items: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* align-items: center; */
     
 }
 
@@ -166,9 +178,7 @@ align-items: center;
    justify-content: space-around;
    border-radius: 1em;
    margin-top: 1em;
-   margin-bottom: 3em;
-   
-   
+   margin-bottom: 3em;  
 }
 .all-event-card{
     background-color: #D0BCFF;
@@ -189,7 +199,8 @@ font-size: 1.3em;
 margin-bottom: 1em;
 }
 
-/* Footer styles */
+/* Footer styles starts*/
+
 footer{
     height: 20em;
     background-color:#65558F;
@@ -224,3 +235,4 @@ footer p{
     text-align: center;
 }
 
+  

@@ -1,0 +1,95 @@
+/* Media Query for Mobile */
+@media only screen and (max-width: 500px) {
+
+/* header responsive mobile design */
+    
+     section{
+        padding: 0;    
+        
+    }
+
+
+    header{
+      width: 100%;
+     
+    }
+    .burger-menu {
+        display: block;
+      }
+
+    .nav-links {
+        display: none;
+      }
+      .lang-img{
+        display: none;
+      }
+
+
+      /* hero section responsive mobile design */
+      .hero-div{
+        display: flex;
+        flex-direction: column;
+     }
+      #hero-section img{
+        width: 100%;
+        border-radius: 1em;
+    }
+/* event-info section responsive mobile design */
+
+    .event-info-div{
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        margin: 1em;
+        border-radius: 1em;
+       
+    }
+    .banner-img{
+        height: 20em;
+        width: 100%;
+    }
+    #event-info-section article{
+        margin: 1em;
+    }
+    #event-info-section article h2{
+       font-size: 2em;
+        margin-top: 1em;
+        margin-bottom: 1em;
+    }
+    .date-time-div{
+        margin-bottom: .7em;
+        font-weight: bold;
+        font-size: 1.3em;
+    }
+    #event-info-section button{
+        height: 3em;
+        width: 100%;
+        background-color: #31111D;
+        color: white;
+        border-radius: .5em;
+        margin-top: 4em;
+        margin-bottom: .5em;
+        font-size: 1.5em;
+        
+    }
+
+
+    /* All event section responsive media query style */
+    .all-event-card-div{
+        display: flex;
+        flex-direction: column;
+       /* justify-content: space-around; */
+       border-radius: 1em;
+       margin-top: 1em;
+       margin-bottom: 3em;  
+    }
+    .all-events-img{
+        width: 100%;
+        border-radius: 1em;
+        
+    }
+    #all-events-section article{
+        padding: 1em;
+    }
+      
+  }
