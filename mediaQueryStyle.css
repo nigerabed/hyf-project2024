@@ -1,95 +1,138 @@
+
 /* Media Query for Mobile */
-@media only screen and (max-width: 500px) {
-
-/* header responsive mobile design */
-    
-     section{
-        padding: 0;    
-        
-    }
-
-
-    header{
-      width: 100%;
-     
-    }
-    .burger-menu {
+@media only screen and (min-width: 601px) {
+    #myDropdown{
         display: block;
-      }
+    }
+}
+/* Media Query for Mobile */
+@media only screen and (max-width: 600px) {
+  /* header responsive mobile design */
 
-    .nav-links {
-        display: none;
-      }
-      .lang-img{
-        display: none;
-      }
-
-
-      /* hero section responsive mobile design */
-      .hero-div{
-        display: flex;
-        flex-direction: column;
-     }
-      #hero-section img{
-        width: 100%;
-        border-radius: 1em;
-    }
-/* event-info section responsive mobile design */
-
-    .event-info-div{
-        display: flex;
-        flex-direction: column;
-        background-color: white;
-        margin: 1em;
-        border-radius: 1em;
-       
-    }
-    .banner-img{
-        height: 20em;
-        width: 100%;
-    }
-    #event-info-section article{
-        margin: 1em;
-    }
-    #event-info-section article h2{
-       font-size: 2em;
-        margin-top: 1em;
-        margin-bottom: 1em;
-    }
-    .date-time-div{
-        margin-bottom: .7em;
-        font-weight: bold;
-        font-size: 1.3em;
-    }
-    #event-info-section button{
-        height: 3em;
-        width: 100%;
-        background-color: #31111D;
-        color: white;
-        border-radius: .5em;
-        margin-top: 4em;
-        margin-bottom: .5em;
-        font-size: 1.5em;
-        
-    }
-
-
-    /* All event section responsive media query style */
-    .all-event-card-div{
-        display: flex;
-        flex-direction: column;
-       /* justify-content: space-around; */
-       border-radius: 1em;
-       margin-top: 1em;
-       margin-bottom: 3em;  
-    }
-    .all-events-img{
-        width: 100%;
-        border-radius: 1em;
-        
-    }
-    #all-events-section article{
-        padding: 1em;
-    }
-      
+  section {
+    padding: 0;
   }
+
+  header {
+    width: 100%;
+  }
+  .burger-menu {
+    display: block;
+    cursor: pointer;
+  }
+
+  .nav-links {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 3em;
+    right: 1em;
+    background-color: #21005d;
+  }
+  .nav-links a {
+    padding: 2em;
+  }
+
+  .nav-links a:hover {
+    background-color: rgb(45, 43, 40);
+  }
+  .lang-img {
+    display: none;
+  }
+
+  /* hero section responsive mobile design */
+  .hero-div {
+    display: flex;
+    flex-direction: column;
+  }
+  #hero-section img {
+    max-width: 100%;
+    border-radius: 1em;
+  }
+  /* event-info section responsive mobile design */
+
+  .event-info-div {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    margin: 1em;
+    border-radius: 1em;
+  }
+  .banner-img {
+    /* max-height: 20em;
+        max-width: 100%; */
+  }
+  #event-info-section article {
+    margin: 1em;
+  }
+  #event-info-section article h2 {
+    font-size: 2em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+  .date-time-div {
+    margin-bottom: 0.7em;
+    font-weight: bold;
+    font-size: 1.3em;
+  }
+  #event-info-section button {
+    height: 3em;
+    width: 100%;
+    background-color: #31111d;
+    color: white;
+    border-radius: 0.5em;
+    margin-top: 4em;
+    margin-bottom: 0.5em;
+    font-size: 1em;
+  }
+
+  /* All event section responsive media query style */
+  .all-event-card-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-radius: 1em;
+    margin-top: 1em;
+    margin-bottom: 3em;
+  }
+  .all-events-img {
+    max-width: 100%;
+    border-radius: 1em;
+  }
+  #all-events-section article {
+    padding: 1em;
+  }
+  #all-events-section article button {
+    height: 3em;
+    width: 100%;
+    background-color: #21005d;
+    color: white;
+    border-radius: 0.5em;
+    font-weight: bold;
+    margin-top: 1em;
+    font-size: 1em;
+  }
+
+  /* Footer responsive media query style */
+  footer .footer-div {
+    padding: 2em 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  footer img {
+    max-height: 20em;
+  }
+  footer h4 {
+    font-weight: bold;
+    font-size: 1.3em;
+    margin-bottom: 1em;
+  }
+  footer p {
+    font-size: .8em;
+    width: 100%;
+    text-align: left;
+    margin: 3em 2em;
+    padding-left: 1em;
+  }
+}

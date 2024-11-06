@@ -1,0 +1,40 @@
+/* Header Styles starts*/
+
+header {
+    min-height: 3em;
+    background-color: #65558f;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  header img {
+    height: 2em;
+    margin: 1em;
+  }
+  
+  .hide {
+    display: none;
+  }
+  
+  .show {
+      display:block;}
+  
+  .nav-links {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  header nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: 400;
+    margin-left: 1em;
+  }
+  .burger-menu {
+    display: none;
+  }
+  .lang-img {
+    display: block;
+  }
+  

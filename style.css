@@ -1,238 +1,202 @@
 /* common styles for elements */
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-h1{
-    color:#21005D;
-    font-size: 2em;
+h1 {
+  color: #21005d;
+  font-size: 2em;
 }
 
-.date-time-div img{
-    margin-right: 1em;
-    height: 1.3em;
- }
- .date-time-div{
-     margin-bottom: .7em;
- }
-
- section{
-    padding: 2em;
- }
-
- section h1{
-    text-align: center;
+.date-time-div img {
+  margin-right: 1em;
+  height: 1.3em;
+}
+.date-time-div {
+  margin-bottom: 0.7em;
 }
 
-address{
-    display: inline;
+section {
+  padding: 2em;
 }
 
-
-/* Header Styles starts*/
-
-header{
-    height: 3em;
-    background-color: #65558F;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
- 
-}
-header img{
-    height: 2em;
-    margin: 1em;
+section h1 {
+  text-align: center;
 }
 
-header nav a{
-    color: white;
-    text-decoration: none;
-    font-size: 1em;
-    font-weight:400;
-  margin-left: 1em;
+address {
+  display: inline;
 }
-.burger-menu {
-    display: none;
-  }
-  .lang-img{
-display: block;
-  }
 
 
 /* About us Hero Section Styles starts */
 
-#hero-section{
-    background-color: #E8DEF8;
-    width:92% ;
-    margin: auto;
-    margin-top: 3em;
-    border-radius: 1em;
- 
+#hero-section {
+  background-color: #e8def8;
+  width: 92%;
+  margin: auto;
+  margin-top: 3em;
+  border-radius: 1em;
 }
-#hero-section img{
-    width: 33em;
-    border-radius: 1em;
-}
-.hero-div{
-   padding: 1em;
-   display: flex;
-}
-#hero-section article {
-display: flex;
-flex-direction: column;
-align-items: center;
+#hero-section img {
+  max-width: 100%;
 
+  border-radius: 1em;
 }
-#hero-section article p{
-    padding: 1em;
-    font-size: 1.1em;
+.hero-div {
+  padding: 1em;
+  display: flex;
+}
+.child-div {
+  flex-basis: 100%;
+}
+.hero-div article {
+  flex-basis: 100%;
+}
+
+#hero-section article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#hero-section article p {
+  padding: 1em;
+  font-size: 1.1em;
 }
 
 /* Event info styles starts*/
 
-#event-info-section{
-   
-    background-color: #F9DEDC;
-    padding-bottom: 1.5em;
-    margin-top: 3em;
+#event-info-section {
+  background-color: #f9dedc;
+  padding-bottom: 1.5em;
+  margin-top: 3em;
 }
 
-
-#event-info-section button{
-    height: 2.5em;
-    width: 8em;
-    background-color: #31111D;
-    color: white;
-    border-radius: .5em;
-    margin-top: 4em;
-    margin-bottom: 2em;
-    
+#event-info-section button {
+  height: 2.5em;
+  width: 8em;
+  background-color: #31111d;
+  color: white;
+  border-radius: 0.5em;
+  margin-top: 4em;
+  margin-bottom: 2em;
 }
-.banner-img{
-    height: 30em;
-    width: 45em;
-}
-
-.event-info-div{
-    display: flex;
-    background-color: white;
-    margin: 2em;
-    border-radius: 1em;
-   
-}
-#event-info-section article{
-    margin: 2em;
+.banner-img {
+  width: 100%;
+  /* max-height: 30em;
+    max-width: 45em; */
 }
 
-#event-info-section article h2{
-    margin-top: 1em;
-    margin-bottom: 1em;
+.event-info-div {
+  display: flex;
+  background-color: white;
+  margin: 2em;
+  border-radius: 1em;
+}
+#event-info-section article {
+  margin: 2em;
+  flex-basis: 100%;
 }
 
-#event-info-section article p{
-    line-height: 1.5em;
-    font-size: 1.1em;
+#event-info-section article h2 {
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
 
+#event-info-section article p {
+  line-height: 1.5em;
+  font-size: 1.1em;
+}
 
 /* All event styles starts */
 
-#all-events-section{
-    padding: 1em;
-    color: #21005D;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    
+#all-events-section {
+  padding: 1em;
+  color: #21005d;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-#all-events-section article{
-    padding: 2em;
+#all-events-section article {
+  padding: 2em;
 }
-#all-events-section article p{
-    font-size: .9em;
-    margin-bottom: 1em;
-}
-
-
-#all-events-section article .date-time-div{
-   margin-top: 1em;
-    font-weight: bold;
-}
-#all-events-section article button{
-    height: 2.5em;
-    width: 9em;
-    background-color: #21005D;
-    color: white;
-    border-radius: 1em;
-    font-weight: bold;
-    margin-top: 1em;
+#all-events-section article p {
+  font-size: 0.9em;
+  margin-bottom: 1em;
 }
 
-
-.all-event-card-div{
-    display: flex;
-   justify-content: space-around;
-   border-radius: 1em;
-   margin-top: 1em;
-   margin-bottom: 3em;  
+#all-events-section article .date-time-div {
+  margin-top: 1em;
+  font-weight: bold;
 }
-.all-event-card{
-    background-color: #D0BCFF;
-   width: 30em;
-   border-radius: 1em;
-
-   
+#all-events-section article button {
+  height: 2.5em;
+  width: 9em;
+  background-color: #21005d;
+  color: white;
+  border-radius: 1em;
+  font-weight: bold;
+  margin-top: 1em;
 }
 
-
-.all-events-img{
-    width: 100%;
-    border-radius: 1em;
-    
+.all-event-card-div {
+  display: flex;
+  justify-content: space-around;
+  border-radius: 1em;
+  margin-top: 1em;
+  margin-bottom: 3em;
 }
-.all-event-card h3{
-font-size: 1.3em;
-margin-bottom: 1em;
+.all-event-card {
+  background-color: #d0bcff;
+  border-radius: 1em;
+  margin: 0.5em;
+}
+
+.all-events-img {
+  width: 100%;
+  height: auto;
+  border-radius: 1em;
+}
+.all-event-card h3 {
+  font-size: 1.3em;
+  margin-bottom: 1em;
 }
 
 /* Footer styles starts*/
 
-footer{
-    height: 20em;
-    background-color:#65558F;
-    color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-   
-   
+footer {
+  /* height: 20em; */
+  background-color: #65558f;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
-footer .footer-div{
-    padding: 2em 3em;
-    display: flex;
-    justify-content: space-around;
+footer .footer-div {
+  padding: 2em 3em;
+  display: flex;
+  justify-content: space-around;
 }
-footer h4{
-    font-weight: bold;
-    font-size: .9em;
-    margin-bottom: 1em;
+footer h4 {
+  font-weight: bold;
+  font-size: 1em;
+  margin-bottom: 1em;
 }
-footer li{
-    font-size: .8em;
-    margin-bottom: .7em;
-    list-style-type: none;
+footer li {
+  font-size: 0.8em;
+  margin-bottom: 0.7em;
+  list-style-type: none;
 }
-footer img{
-    height: 12em;
+footer img {
+  max-height: 12em;
 }
-footer p{
-    font-size: .7em;
-    width: 100%;
-    text-align: center;
+footer p {
+  font-size: 0.7em;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 2em;
 }
-
-  
